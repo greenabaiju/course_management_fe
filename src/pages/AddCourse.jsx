@@ -226,24 +226,7 @@ const AddCourse = () => {
                 + Add Course
               </button>
 
-              <button
-                onClick={() =>
-                  setCourse({
-                    courseName: "",
-                    courseCode: "",
-                    instructorName: "",
-                    duration: "",
-                    courseFee: "",
-                    date: "",
-                    Mode: "",
-                    sessionDuration: "",
-                    Description: "",
-                  })
-                }
-                className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition"
-              >
-                Clear Form
-              </button>
+             
             </div>
           </div>
         </div>
