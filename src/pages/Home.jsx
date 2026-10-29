@@ -63,7 +63,7 @@ const Home = () => {
         {/* Heading */}
         <div className="mb-8">
           <p className="text-sm font-semibold text-purple-700 mb-2">
-            INSTITUTION MANAGEMENT
+            Course Management
           </p>
 
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -231,9 +231,7 @@ const Home = () => {
           </div>
         </div>
 
-        <p className="text-center text-sm text-gray-500 mt-6">
-          Institution Course Management System
-        </p>
+        
       </div>
     </div>
   );
